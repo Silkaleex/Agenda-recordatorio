@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Saira Stencil One", cursive;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Saira Stencil One", cursive;
+  background-image: url("./reloj.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #380036;
+}
+.container {
+  height: auto;
+  width: 40vw;
+  margin: 2rem auto;
+  background-color: #caccd7ba;
+  padding: 25px;
+  border-radius: 20%;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1rem auto;
+}
+.formulario input {
+  margin: 15px 0rem;
+  line-height: 3rem;
+  padding: 0px 15px;
+  background: #f6f6f4;
+  outline: 0;
+  border: 0;
+  color: #5d5f58;
+  letter-spacing: 1px;
+}
+.formulario input:active {
+  border-bottom: 4px solid #caccd7;
+}
+.formulario input:focus {
+  border-bottom: 4px solid #caccd7;
+  background-color: #e6ecf1;
+}
+.formulario button {
+  margin: 0px 5px;
+  background-color: #dce9f1;
+  border: 0;
+  outline: 0;
+  height: 3rem;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: 1s all;
+}
+.formulario button:hover {
+  margin: 0px 5px;
+  background-color: #d6cefe;
+  border: 0;
+  outline: 0;
+  height: 3rem;
+  border-radius: 4px;
+  letter-spacing: 4px;
+  cursor: pointer;
+  transition: 1s all;
+}
+.tarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  margin: 10px -20px;
+}
+.icono {
+  color: #f53844;
+  cursor: pointer;
+  transition: 1s all;
+}
+.icono:hover {
+  color: #a40606;
+  cursor: pointer;
+  transition: 1s all;
+}
